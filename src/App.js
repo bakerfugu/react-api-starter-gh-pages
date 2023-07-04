@@ -10,6 +10,7 @@ import characters from "./protagonists.json";
 import { useState } from "react";
 
 function App() {
+  // state variable to store the click count!
   const [count, setCounter] = useState(0);
 
   return (
@@ -64,12 +65,13 @@ function App() {
           alignItems="flex-start"
         >
           {characters.map((character) => (
-            <CharacterCard
-              characterName={character.title}
-              image={character.pic}
-              descriptionArray={character.description}
-              key={character.title}
-            />
+            <Grid item xs={12} md={4} key={character.title}>
+              <CharacterCard
+                characterName={character.title}
+                image={character.pic}
+                descriptionArray={character.description}
+              />
+            </Grid>
           ))}
         </Grid>
       </Container>

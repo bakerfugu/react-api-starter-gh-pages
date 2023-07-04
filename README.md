@@ -4,7 +4,7 @@ This is the starter code for the React API website project for Snap Engineering 
 
 Scholars, update this file with your project's name, your name, and a description!
 
-*Created by Baker Sharp, Jenna Kim, and Phoenix Ngan*
+*Starter created by Baker Sharp, Jenna Kim, and Phoenix Ngan*
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
