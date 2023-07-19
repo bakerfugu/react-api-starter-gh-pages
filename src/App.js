@@ -32,6 +32,10 @@ function App() {
             sx={{ my: 1, mx: 1.5 }}
             onClick={() => {
               setCounter(count + 1);
+              console.log(
+                "my secret:",
+                process.env.REACT_APP_NOT_SECRET_API_KEY
+              );
             }}
           >
             COUNT BUTTON
