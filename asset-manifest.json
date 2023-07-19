@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-api-starter-gh-pages/static/js/main.642bf698.js",
+    "main.js": "/react-api-starter-gh-pages/static/js/main.f433b5a9.js",
     "index.html": "/react-api-starter-gh-pages/index.html",
-    "main.642bf698.js.map": "/react-api-starter-gh-pages/static/js/main.642bf698.js.map"
+    "main.f433b5a9.js.map": "/react-api-starter-gh-pages/static/js/main.f433b5a9.js.map"
   },
   "entrypoints": [
-    "static/js/main.642bf698.js"
+    "static/js/main.f433b5a9.js"
   ]
 }
