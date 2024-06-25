@@ -23,7 +23,8 @@ export default function CharacterCard(props) {
     // Get a random cat image
     // the "has_breeds=1" is important for the second part
     const response = await fetch(
-      "https://api.thecatapi.com/v1/images/search?has_breeds=1",
+      "https://api.thecatapi.com/v1/images/search?has_breeds=" +
+        process.env.MY_KEY,
       requestOptions
     );
     const data = await response.json();
