@@ -1,5 +1,6 @@
 {
-  "name": "template-react-api-student-projectname",
+  "name": "react-api-starter-gh-pages",
+  "homepage": "react-api-starter-gh-pages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +15,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -27,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
